@@ -36,7 +36,7 @@ get_header();
 		?>			
 		<li>
 			<img alt="znslider" src="<?php echo get_stylesheet_directory_uri() . '/images/home-page1.jpg'; ?>" />
-			<h2 class="flex-caption">Welcome to Jalapenos!</h2>
+			<h2 class="flex-caption">Welcome to Jalapenos! </h2>
 		</li>
 		<li>
 			<img alt="znslider" src="<?php echo get_stylesheet_directory_uri() . '/images/home-page2.jpg'; ?>" />
