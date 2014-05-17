@@ -23,28 +23,28 @@
 <div id="secondary" class="home-widget" role="complementary">
 	<?php if( !dynamic_sidebar( 'sidebar-2' ) ) : //show informative text if no widget ?>
 		<div class="widget">
-		<h3 class="widget-title"><?php _e( 'About restaurant', 'restaurant' ); ?></h3>
+		<h3 class="widget-title"><?php _e( 'Great Happy Hour', 'restaurant' ); ?></h3>
 		<div class="textwidget">
-		<a href="#"><img alt="about us" src="<?php _e( get_stylesheet_directory_uri() . '/images/about-us.jpg' ); ?>" /></a>
-		<?php _e('Front Widget 1 : to edit please go to Appearance > Widgets and choose Front Widget 1. Title is also manageable from widgets as well.', 'restaurant'); ?></div>
+		<a href="/our-food/"><img alt="Great Happy Hour" src="http://jalapenosonline.com/wp-content/uploads/2014/05/IMG_4755_sm.jpg" /></a>
+		<?php _e('Visit us for Happy Hour!', 'restaurant'); ?></div>
 		</div><!-- .widget -->
 	<?php endif; ?>
 
 	<?php if( !dynamic_sidebar( 'sidebar-3' ) ) : ?>
 		<div class="widget">
-		<h3 class="widget-title"><?php _e( 'Explore our food menu', 'restaurant' ); ?></h3>
+		<h3 class="widget-title"><?php _e( 'Our Food', 'restaurant' ); ?></h3>
 		<div class="textwidget">
-		<a href="#"><img alt="food menu" src="<?php _e( get_stylesheet_directory_uri() . '/images/food-menu.jpg' ); ?>" /></a>
-		<?php _e('Front Widget 2 : to edit please go to Appearance > Widgets and choose Front Widget 2. Title is also manageable from widgets as well.', 'restaurant'); ?></div>
+		<a href="/our-food/"><img alt="Our Food" src="http://jalapenosonline.com/wp-content/uploads/2014/05/Paella_sm.jpg" /></a>
+		<?php _e('Please visit our gallery of food!', 'restaurant'); ?></div>
 		</div><!-- .widget -->
 	<?php endif; ?>
 
 	<?php if( !dynamic_sidebar( 'sidebar-4' ) ) : ?>
 		<div class="widget">
-		<h3 class="widget-title"><?php _e( 'Book online', 'restaurant' ); ?></h3>
+		<h3 class="widget-title"><?php _e( 'Explore Our Menus', 'restaurant' ); ?></h3>
 		<div class="textwidget">
-		<a href="#"><img alt="booking online" src="<?php _e( get_stylesheet_directory_uri() . '/images/booking.jpg' ); ?>" /></a>
-		<?php _e('Front Widget 3 : to edit please go to Appearance > Widgets and choose Front Widget 3. Title is also manageable from widgets as well.', 'restaurant'); ?></div>
+		<a href="/our-menu/"><img alt="Explore Our Menus" src="http://jalapenosonline.com/wp-content/uploads/2014/05/guac3_sm.jpg" /></a>
+		<?php _e('Please explore our menus!', 'restaurant'); ?></div>
 		</div><!-- .widget -->
 	<?php endif; ?>
 </div><!-- #secondary -->
