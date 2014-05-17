@@ -2,10 +2,10 @@
 Theme Name:     Restaurant
 Theme URI:      http://www.designpromote.co.uk/wp2012/restaurant/
 Description:    Easy to use but functional responsive theme to build a website for restaurants or other types of business that work on any device. Features include a loading page, an intergrated slider library to manage sliders, and optional Google Map plugins, Restaurant SimpleBooings plugins (available at Designpromote.co.uk/wordpress).
-Author:         Nan Zhang
-Author URI:     http://www.designpromote.co.uk/
+Author:         Nan Zhang & Nathaniel Elliott
+Author URI:     http://www.offlabs.com/
 Template:       twentytwelve
-Version:				1.10
+Version:				1.5
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: light, one-column, two-columns, flexible-width, custom-header, full-width-template, flexible-width
@@ -151,6 +151,12 @@ footer .site-info {
 .home-widget img:hover {
 	opacity: 0.7;
 	filter:Alpha(opacity=70); /* ie8 and earlier */
+}
+.home-widget .widget:first-child, #text-5 {
+	float:left !important;
+}
+.home-widget .textwidget img {
+	margin:0px !important;
 }
 
 /* =Main content and comment content */

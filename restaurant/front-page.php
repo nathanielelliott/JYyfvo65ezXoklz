@@ -35,16 +35,28 @@ get_header();
 		else: 
 		?>			
 		<li>
-			<img alt="znslider" src="<?php echo get_stylesheet_directory_uri() . '/images/home-page1.jpg'; ?>" />
-			<h2 class="flex-caption">Welcome to Jalapenos! </h2>
+			<img alt="znslider" src="<?php echo get_stylesheet_directory_uri() . '../../../../wp-content/uploads/2014/05/paella_front.jpg'; ?>" />
+			<h2 class="flex-caption">Welcome to Jalapenos!</h2>
 		</li>
 		<li>
-			<img alt="znslider" src="<?php echo get_stylesheet_directory_uri() . '/images/home-page2.jpg'; ?>" />
+			<img alt="znslider" src="<?php echo get_stylesheet_directory_uri() . '../../../../wp-content/uploads/2014/05/guacamole_front.jpg'; ?>" />
 			<h2 class="flex-caption">Brilliant food and drinks!</h2>
 		</li>
-				<li>
-			<img alt="znslider" src="<?php echo get_stylesheet_directory_uri() . '/images/home-page3.jpg'; ?>" />
-			<h2 class="flex-caption">Come visit us for specials today!</h2>
+		<li>
+			<img alt="znslider" src="<?php echo get_stylesheet_directory_uri() . '../../../../wp-content/uploads/2014/05/dancing_front.jpg'; ?>" />
+			<h2 class="flex-caption">¡Bienvenidos Amigos!</h2>
+		</li>
+		<li>
+			<img alt="znslider" src="<?php echo get_stylesheet_directory_uri() . '../../../../wp-content/uploads/2014/05/fish_tacos_front.jpg'; ?>" />
+			<h2 class="flex-caption">Great Happy Hour!</h2>
+		</li>
+		<li>
+			<img alt="znslider" src="<?php echo get_stylesheet_directory_uri() . '../../../../wp-content/uploads/2014/05/dining_room_front.jpg'; ?>" />
+			<h2 class="flex-caption">Great For Gatherings!</h2>
+		</li>
+		<li>
+			<img alt="znslider" src="<?php echo get_stylesheet_directory_uri() . '../../../../wp-content/uploads/2014/05/bar_front.jpg'; ?>" />
+			<h2 class="flex-caption">Come Celebrate with Us!</h2>
 		</li>
 		<?php
 		endif;
