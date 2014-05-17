@@ -152,12 +152,12 @@ footer .site-info {
 	opacity: 0.7;
 	filter:Alpha(opacity=70); /* ie8 and earlier */
 }
-.home-widget .widget:first-child, #text-5 {
+/*.home-widget .widget:first-child, #text-5 {
 	float:left !important;
 }
 .home-widget .textwidget img {
 	margin:0px !important;
-}
+}*/
 
 /* =Main content and comment content */
 .entry-header {
